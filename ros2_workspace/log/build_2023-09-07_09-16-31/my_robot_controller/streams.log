@@ -1,0 +1,33 @@
+[1.343s] Invoking command in '/home/ragul/ros2_workspace/build/my_robot_controller': PYTHONPATH=/home/ragul/ros2_workspace/build/my_robot_controller/prefix_override:/home/ragul/ros2_workspace/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/ragul/ros2_workspace/build/my_robot_controller/build
+[1.909s] running develop
+[1.910s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.910s]   warnings.warn(
+[1.913s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.913s]   warnings.warn(
+[2.336s] Invoked command in '/home/ragul/ros2_workspace/build/my_robot_controller' returned '0': PYTHONPATH=/home/ragul/ros2_workspace/build/my_robot_controller/prefix_override:/home/ragul/ros2_workspace/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/ragul/ros2_workspace/build/my_robot_controller/build
+[2.339s] Invoking command in '/home/ragul/ros2_workspace/src/my_robot_controller': PYTHONPATH=/home/ragul/ros2_workspace/build/my_robot_controller/prefix_override:/home/ragul/ros2_workspace/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_robot_controller build --build-base /home/ragul/ros2_workspace/build/my_robot_controller/build install --record /home/ragul/ros2_workspace/build/my_robot_controller/install.log --single-version-externally-managed
+[2.854s] running egg_info
+[2.855s] writing ../../build/my_robot_controller/my_robot_controller.egg-info/PKG-INFO
+[2.856s] writing dependency_links to ../../build/my_robot_controller/my_robot_controller.egg-info/dependency_links.txt
+[2.856s] writing entry points to ../../build/my_robot_controller/my_robot_controller.egg-info/entry_points.txt
+[2.857s] writing requirements to ../../build/my_robot_controller/my_robot_controller.egg-info/requires.txt
+[2.857s] writing top-level names to ../../build/my_robot_controller/my_robot_controller.egg-info/top_level.txt
+[2.862s] reading manifest file '../../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'
+[2.863s] writing manifest file '../../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'
+[2.863s] running build
+[2.864s] running build_py
+[2.864s] copying my_robot_controller/my_first_node.py -> /home/ragul/ros2_workspace/build/my_robot_controller/build/lib/my_robot_controller
+[2.864s] running install
+[2.865s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.865s]   warnings.warn(
+[2.865s] running install_lib
+[2.867s] copying /home/ragul/ros2_workspace/build/my_robot_controller/build/lib/my_robot_controller/my_first_node.py -> /home/ragul/ros2_workspace/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[2.868s] byte-compiling /home/ragul/ros2_workspace/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/my_first_node.py to my_first_node.cpython-310.pyc
+[2.869s] running install_data
+[2.870s] running install_egg_info
+[2.873s] removing '/home/ragul/ros2_workspace/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller-0.0.0-py3.10.egg-info' (and everything under it)
+[2.874s] Copying ../../build/my_robot_controller/my_robot_controller.egg-info to /home/ragul/ros2_workspace/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller-0.0.0-py3.10.egg-info
+[2.875s] running install_scripts
+[2.920s] Installing test_node script to /home/ragul/ros2_workspace/install/my_robot_controller/lib/my_robot_controller
+[2.921s] writing list of installed files to '/home/ragul/ros2_workspace/build/my_robot_controller/install.log'
+[2.974s] Invoked command in '/home/ragul/ros2_workspace/src/my_robot_controller' returned '0': PYTHONPATH=/home/ragul/ros2_workspace/build/my_robot_controller/prefix_override:/home/ragul/ros2_workspace/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_robot_controller build --build-base /home/ragul/ros2_workspace/build/my_robot_controller/build install --record /home/ragul/ros2_workspace/build/my_robot_controller/install.log --single-version-externally-managed
