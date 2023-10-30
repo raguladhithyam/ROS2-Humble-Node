@@ -12,7 +12,7 @@ To build the ROS 2 package containing this node, follow these steps:
 
 1. Create a ROS 2 workspace:
 
-   bash
+   ```bash
    mkdir -p ~/ros2_workspace/src
    cd ~/ros2_workspace/src
 
